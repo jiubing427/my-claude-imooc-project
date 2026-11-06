@@ -1,0 +1,14 @@
+{
+  "name": "cute-pastel-ledger",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check assets/app.js && node --check assets/store.js && node --check server.js",
+    "test": "node tests/browser.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.65.0"
+  }
+}
